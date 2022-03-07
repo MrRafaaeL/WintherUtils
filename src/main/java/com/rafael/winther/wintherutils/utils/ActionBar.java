@@ -27,8 +27,8 @@ public class ActionBar {
             ActionBar.CHATMESSAGE = Class.forName("net.minecraft.server." + ActionBar.SERVER_VERSION + ".ChatMessage");
             ActionBar.CHATMESSAGE_CONSTRUCTOR = ActionBar.CHATMESSAGE.getDeclaredConstructor(String.class, Object[].class);
         }
-        catch (Exception e) {
-            e.printStackTrace();
+        catch (Exception exception) {
+            exception.printStackTrace();
         }
     }
 
@@ -42,8 +42,8 @@ public class ActionBar {
             final Object playerConnection = methodhHandle.getClass().getField("playerConnection").get(methodhHandle);
             playerConnection.getClass().getMethod("sendPacket", ActionBar.PACKET_CLASS).invoke(playerConnection, packet);
         }
-        catch (Exception e) {
-            e.printStackTrace();
+        catch (Exception exception) {
+            exception.printStackTrace();
         }
     }
 }

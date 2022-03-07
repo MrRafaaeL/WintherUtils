@@ -10,8 +10,8 @@ import java.lang.reflect.Field;
 
 public class TabList {
 
-    public static void sendHeaderAndFooter(Player p, String head, String foot) {
-        CraftPlayer craftplayer = (CraftPlayer)p;
+    public static void sendHeaderAndFooter(Player player, String head, String foot) {
+        CraftPlayer craftplayer = (CraftPlayer) player;
         PlayerConnection connection = craftplayer.getHandle().playerConnection;
         IChatBaseComponent header = IChatBaseComponent.ChatSerializer.a("{'color': '', 'text': '" + head + "'}");
         IChatBaseComponent footer = IChatBaseComponent.ChatSerializer.a("{'color': '', 'text': '" + foot + "'}");
@@ -26,8 +26,8 @@ public class TabList {
             footerField.setAccessible(true);
             footerField.set(packet, footer);
             footerField.setAccessible(!footerField.isAccessible());
-        } catch (Exception var10) {
-            var10.printStackTrace();
+        } catch (Exception exception) {
+            exception.printStackTrace();
         }
 
         connection.sendPacket(packet);
