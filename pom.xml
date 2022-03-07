@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.rafael.winther</groupId>
-    <artifactId>winther-utils</artifactId>
+    <artifactId>WintherUtils</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>winther-utils</name>
+    <name>WintherUtils</name>
 
     <description>by MrRafaaeL#2774</description>
     <properties>

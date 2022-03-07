@@ -1,4 +1,4 @@
-name: winther-utils
+name: WintherUtils
 version: '1.0-SNAPSHOT'
 main: com.rafael.winther.wintherutils.Winther
 authors: [ MrRafaaeL ]

@@ -1,4 +1,4 @@
-name: winther-utils
+name: WintherUtils
 version: '${project.version}'
 main: com.rafael.winther.wintherutils.Winther
 authors: [ MrRafaaeL ]
