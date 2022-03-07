@@ -1,0 +1,7 @@
+name: winther-utils
+version: '${project.version}'
+main: com.rafael.winther.wintherutils.Winther
+authors: [ MrRafaaeL ]
+description: by MrRafaaeL#2774
+commands:
+  dmglad:
