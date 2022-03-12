@@ -16,6 +16,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Locale;
 import java.util.Map.Entry;
 
 public class CombatListener implements Listener {
@@ -129,11 +130,15 @@ public class CombatListener implements Listener {
     }
 
     @EventHandler
-    public void onCommand(PlayerCommandPreprocessEvent e) {
-        Player p = e.getPlayer();
-        if (combat.containsKey(p.getName())) {
-            e.setCancelled(true);
-            p.sendMessage("§cVocê está em combate! Aguarde " + combat.get(p.getName()) + "s para executar comandos.");
+    public void onCommand(PlayerCommandPreprocessEvent event) {
+        Player player = event.getPlayer();
+        if (event.getMessage().toLowerCase().startsWith("/.") ||
+                event.getMessage().toLowerCase().startsWith("/c")) {
+            return;
+        }
+        if (combat.containsKey(player.getName())) {
+            event.setCancelled(true);
+            player.sendMessage("§cVocê está em combate! Aguarde " + combat.get(player.getName()) + "s para executar comandos.");
         }
     }
 }

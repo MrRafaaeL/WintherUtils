@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6785067-8d89-449a-ba7f-f8e577a3ef80" name="Changes" comment="Fix upload gitHub">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Winther-Utils.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/Winther.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/commands/DmGladCommand$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/commands/DmGladCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/listeners/CombatListener$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/listeners/CombatListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/listeners/LunarListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/listeners/PotionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/manager/CommandRegistry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/manager/ListenerRegistry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/utils/ActionBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/rafael/winther/wintherutils/utils/TabList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rafael/winther/wintherutils/listeners/CombatListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rafael/winther/wintherutils/listeners/CombatListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646659668649</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix upload gitHub">
+      <created>1646660696134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646660696134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
